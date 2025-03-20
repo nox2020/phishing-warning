@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peringatan Phishing</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffcccc;
+            font-family: Arial, sans-serif;
+        }
+        .warning-container {
+            text-align: center;
+            background-color: #ff0000;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+            border: 5px solid yellow;
+        }
+        .warning-icon {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="warning-container">
+        <div class="warning-icon">⚠️</div>
+        <h1>Peringatan!</h1>
+        <p>Anda mungkin telah terkena phishing.<br>Segera Hubungi IT Helpdesk.</p>
+    </div>
+</body>
+</html>
